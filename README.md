@@ -1,9 +1,9 @@
-# <a href="https://vinodjangid07.github.io/" target="_blank">My Portfolio</a>
-<p align="justify">This website displays my Projects, Web presence, Story, Work experience, and contact information.</p>
+<a href="https://aquilano.info/" target="_blank">Mein Portfolio</a>
+<p align="justify">Diese Website zeigt meine Projekte, Web-Präsenz, Geschichte und Kontaktinformationen.</p>
 
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/vinodjangid07/vinodjangid07.github.io)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://vinodjangid07.github.io/)
-[![Author](https://img.shields.io/badge/Author-Vinod%20Jangid-purple.svg)](https://www.instagram.com/its_.me._vinod?igshid=YmMyMTA2MsY%3D)
+[![Author](https://img.shields.io/badge/Author-Sebastian%20Aquilano-c15f3c.svg)](https://github.com/aquilano)
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-11%20Jan%202024-yellow.svg)](https://github.com/vinodjangid07/vinodjangid07.github.io)
 <a href="https://github.com/vinodjangid07/vinodjangid07.github.io/blob/master/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 
@@ -36,4 +36,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 * [<b>Animista</b>](https://animista.net/) - To use Interactive animations
 
 
-Please contact me at infovinodjangid@gmail.com if you have any feedback for the website. :star: Star it, if you like it!
+Bitte kontaktieren Sie mich unter sebastian@aquilano.info, falls Sie Feedback zur Website haben. :star: Markieren Sie sie mit einem Stern, wenn sie Ihnen gefällt!
