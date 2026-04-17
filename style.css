@@ -1780,10 +1780,13 @@ footer {
         font-size: 50%
     }
 
-    .landing-page-container,
     .about-section-container,
     .skills-section-container,
     .projects-section-container {
+        padding: 100px 30px;
+    }
+
+    .landing-page-container {
         padding: 0 30px;
     }
 
@@ -1933,10 +1936,13 @@ footer {
         width: 100%
     }
 
-    .landing-page-container,
     .about-section-container,
     .skills-section-container,
-    .projects-container {
+    .projects-section-container {
+        padding: 80px 20px
+    }
+
+    .landing-page-container {
         padding: 0 20px
     }
 
