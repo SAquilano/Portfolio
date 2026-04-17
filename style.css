@@ -11,7 +11,6 @@
     background-size: 60%
 }
 
-#preloader,
 .invertapplied,
 .invertsettinglabel {
     filter: invert(1)
@@ -85,7 +84,7 @@ html {
 }
 
 :root {
-    cursor: default;
+    cursor: auto;
     --color-white: #212121;
     --color-black: #ffffff;
     --color-dark-mode: #f4f3ee;
@@ -129,46 +128,10 @@ html {
     background-color: #c15f3c
 }
 
-.cursor-inner {
-    width: 8px;
-    height: 8px;
-    background-color: var(--color-light-blue)
-}
-
-.cursor-outer {
-    width: 35px;
-    height: 35px;
-    border: 2px solid #fff
-}
-
-.cursor-inner,
-.cursor-outer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    z-index: 9999;
-    pointer-events: none
-}
-
 .setting-container,
 .settingactivate {
     transform-origin: left;
     transition-duration: .5s
-}
-
-.cursor-inner.hover {
-    width: 25px;
-    height: 25px;
-    transition: .2s;
-    mix-blend-mode: difference
-}
-
-.cursor-outer.hover {
-    width: 50px;
-    height: 50px;
-    transition: .2s
 }
 
 .activeThistab:before,
@@ -203,7 +166,9 @@ header {
     justify-content: center;
     overflow-y: hidden;
     background-image: url(src/svg/Pulse-0.4s-200px.svg);
-    background-size: 10%
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center
 }
 
 .navbar,
