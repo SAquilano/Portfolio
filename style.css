@@ -108,9 +108,13 @@ html {
 .footer-bottom article,
 .getintouch-heading article,
 .language-speak article,
-.navbar-tabs-ul li,
-.two-words article {
+.navbar-tabs-ul li {
     font-family: fira code
+}
+
+.two-words article {
+    font-family: fira code;
+    color: var(--color-white)
 }
 
 ::-webkit-scrollbar {
@@ -1776,9 +1780,22 @@ footer {
         font-size: 50%
     }
 
+    .landing-page-container,
+    .about-section-container,
+    .skills-section-container,
+    .projects-section-container {
+        padding: 0 30px;
+    }
+
     .text-content {
         padding-left: 0;
-        width: 80%
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #work {
+        justify-content: center;
     }
 
     #hello-friend {
@@ -1794,6 +1811,12 @@ footer {
     #info-para,
     .language-name {
         width: 100%
+    }
+
+    .sectionHeadingP,
+    .skillsHeadingP,
+    .projectsHeadingP {
+        width: 60px;
     }
 
     .contact-btn-div {
@@ -1907,7 +1930,14 @@ footer {
     .about-section,
     .projects-section-div,
     .skills-section {
-        width: 80%
+        width: 100%
+    }
+
+    .landing-page-container,
+    .about-section-container,
+    .skills-section-container,
+    .projects-container {
+        padding: 0 20px
     }
 
     .info-div {
@@ -1915,7 +1945,13 @@ footer {
     }
 
     .two-words article {
-        font-size: 2.2rem
+        font-size: 2.2rem;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    #backtotopbutton {
+        right: 15px;
     }
 }
 
