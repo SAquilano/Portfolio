@@ -86,21 +86,21 @@ html {
 
 :root {
     cursor: default;
-    --color-white: #ffffff;
-    --color-black: #212121;
-    --color-dark-mode: #151515;
+    --color-white: #212121;
+    --color-black: #ffffff;
+    --color-dark-mode: #f4f3ee;
     --color-light-mode: #f4f3ee;
     --color-ddd-color: #b1ada1;
     --color-gray: #b1ada1;
     --color-purple: #c15f3c;
     --color-light-purple: #d18a6e;
     --color-light-blue: #b1ada1;
-    --color-navbarBorder-dark: rgba(193, 95, 60, 0.1);
-    --color-shadowDark: rgba(0, 0, 0, 0.05);
+    --color-navbarBorder-dark: rgba(193, 95, 60, 0.2);
+    --color-shadowDark: #e9e8e4;
     --static-heading-gradient-blue: #c15f3c;
     --static-heading-gradient-pink: #d18a6e;
-    --tech-stack-box-first-color: #f4f3ee;
-    --tech-stack-box-second-color: rgba(244, 243, 238, 0);
+    --tech-stack-box-first-color: #ffffff;
+    --tech-stack-box-second-color: rgba(255, 255, 255, 0);
     --tech-stack-box-border-color: #b1ada1
 }
 
@@ -178,137 +178,14 @@ html {
     width: 10px;
     left: -20px
 }
-
-.light-mode {
-    --color-dark-mode: #f4f3ee;
-    --color-black: #ffffff;
-    --color-white: #212121;
-    --color-ddd-color: #b1ada1;
-    --color-navbarBorder-dark: rgba(193, 95, 60, 0.2);
-    --static-heading-gradient-blue: #c15f3c;
-    --static-heading-gradient-pink: #d18a6e;
-    --color-shadowDark: #e9e8e4;
-    --tech-stack-box-first-color: #ffffff;
-    --tech-stack-box-second-color: rgba(255, 255, 255, 0);
-    --tech-stack-box-border-color: #b1ada1
-}
-
-.setting-container {
-    width: 60px;
-    height: 50px;
-    margin-left: 50px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding: 20px 0
-}
-
-#labelforsetting {
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
-    background-image: url(src/svg/settings-svgrepo-com.svg);
-    transition-duration: .5s;
-    cursor: pointer
-}
-
-.soundtogglebuttoncontainer,
-.visualmodetogglebuttoncontainer {
-    align-items: center;
-    width: fit-content;
-    transition-duration: .3s
-}
-
-.settingactivate {
-    width: 200px
-}
-
-.visualmodetogglebuttoncontainer {
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    transform: translate(-50px) scale(0)
-}
-
-.visualmodeshow {
-    transition-duration: .3s;
-    transform: translate(0) scale(1)
-}
-
-#switchforsetting,
-#switchforsound,
-#switchforvisualmode,
 .hamburger,
 .mobiletogglemenu {
     display: none
 }
 
-#switchforsetting:checked+#labelforsetting {
-    transform: rotate(180deg);
-    transition-duration: .5s
-}
-
-#labelforvisualmode {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    background-image: url(src/png/crescent-moon\ \(1\).png);
-    background-size: 50%;
-    transition-duration: .5s;
-    cursor: pointer
-}
-
-#switchforvisualmode:checked+#labelforvisualmode {
-    transform: rotate(360deg);
-    transition-duration: .5s;
-    background-image: url(src/png/sun.png);
-    background-size: 60%
-}
-
-.soundtogglebuttoncontainer {
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    transform: translate(-130px) scale(0)
-}
-
-#labelforsound,
-#preloader {
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-position: center
-}
-
-.soundmodeshow {
-    transition-delay: .1s;
-    transition-duration: .5s;
-    display: inline-block;
-    transform: translate(0) scale(1)
-}
-
 .logo,
 .logo:hover {
     transition-duration: 1s
-}
-
-#labelforsound {
-    position: relative;
-    justify-content: center;
-    width: 40px;
-    background-image: url(src/svg/Mute_Icon.svg);
-    cursor: pointer;
-    transition-duration: .5s
-}
-
-#switchforsound:checked+#labelforsound {
-    transition-duration: .5s;
-    background-image: url(src/svg/Speaker_Icon.svg);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center
 }
 
 header {
@@ -1826,9 +1703,10 @@ footer {
         height: 140px;
         display: flex;
         flex-direction: column-reverse;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 20px
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100%
     }
 
     .setting-container {
