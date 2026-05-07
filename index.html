@@ -399,12 +399,18 @@
           </h2>
           <p class="sectionHeadingP"></p>
         </div>
+        <div class="project-filter" data-aos="fade-up" role="tablist" aria-label="Projekte filtern">
+          <button type="button" class="project-filter-btn active" data-filter="all" aria-pressed="true">Alle Projekte</button>
+          <button type="button" class="project-filter-btn" data-filter="web-apps" aria-pressed="false">Web-Apps</button>
+          <button type="button" class="project-filter-btn" data-filter="websites" aria-pressed="false">Websites</button>
+          <button type="button" class="project-filter-btn" data-filter="apps" aria-pressed="false">Apps</button>
+        </div>
         <div class="project-boxes-div">
           <!-- ALTE PROJEKTE VOM TEMPLATE
 
           -->
 
-          <div data-aos="fade-up" class="project-box-wrapper">
+          <div data-aos="fade-up" class="project-box-wrapper" data-category="web-apps">
             <div class="project-box project-box2" id="project-box2">
               <div class="info-div">
                 <img src="Projekt-Logos/logo.svg" alt="DailySetup.io favicon" style="width: auto; height: 35px;" />
@@ -429,6 +435,33 @@
                   alt="DailySetup website preview image" />
               </div>
             </div>
+          </div>
+
+          <div data-aos="fade-up" class="project-box-wrapper" data-category="apps">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <article class="ProjectHeading">Knipsi</article>
+                <p class="ProjectDescription">
+                  Knipsi hilft Kindern dabei, einen gesunden Umgang mit Bildschirmzeit zu lernen: Statt unbegrenzten
+                  Zugriffs verdienen sie ihre Screentime in Form von Münzen – eine Münze entspricht einer Minute. Eltern
+                  legen im per Code oder Face ID geschützten Eltern-Bereich Aufgaben an, bestätigen erledigte Tasks und
+                  steuern, welche Apps gesperrt bleiben, sobald keine Münzen mehr verfügbar sind.
+                </p>
+                <div class="project-buttons">
+                  <a href="#" target="_blank" class="cta" aria-label="Knipsi im App Store ansehen">
+                    <span>Im App Store ansehen</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="Projekt-Screenshots/Knipsi.png" alt="Knipsi App Preview" />
+              </div>
+            </div>
+          </div>
 
             <!-- ALTE PROJEKTE VOM TEMPLATE
           <div data-aos="fade-up" class="project-box-wrapper">

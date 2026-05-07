@@ -1863,9 +1863,61 @@ footer {
 }
 
 
+.project-filter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 50px;
+    margin-top: 20px
+}
+
+.project-filter-btn {
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-white);
+    background-color: transparent;
+    border: 1px solid var(--tech-stack-box-border-color);
+    border-radius: 999px;
+    padding: 10px 22px;
+    cursor: pointer;
+    letter-spacing: .3px;
+    transition: background-color .25s ease, color .25s ease, border-color .25s ease, transform .25s ease
+}
+
+.project-filter-btn:hover {
+    border-color: var(--color-purple);
+    color: var(--color-purple);
+    transform: translateY(-1px)
+}
+
+.project-filter-btn.active {
+    background-color: var(--color-purple);
+    border-color: var(--color-purple);
+    color: #fff
+}
+
+.project-box-wrapper.is-hidden {
+    display: none
+}
+
+@media screen and (max-width: 800px) {
+    .project-filter {
+        padding: 0 20px;
+        gap: 8px
+    }
+
+    .project-filter-btn {
+        font-size: 1.3rem;
+        padding: 8px 16px
+    }
+}
+
 @media only screen and (max-width: 1300px) and (max-height: 730px){
     .landing-page-container {
         height: fit-content;
-        margin-top: 100px;  
+        margin-top: 100px;
     }
 }
